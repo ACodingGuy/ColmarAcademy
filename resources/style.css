@@ -37,3 +37,233 @@ p {
   font-size: .9rem;
   line-height: 1.4;
 }
+
+/*Header Desktop*/
+
+@media only screen and (min-width: 630px) {
+    .nav-mobile {
+      display: none;
+    }
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 64px;
+  z-index: 1;
+  background-color: white;
+  font-family: "Verdana", sans-serif;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+
+.logo-title {
+display: flex;
+align-items: center;
+height: 32px;
+margin-left: 1.5rem;
+}
+
+.colmar {
+margin-left: .5rem;
+font-family: "Allerta Stencil", sans-serif;
+color: black;
+font-size: 1.5rem;
+}
+
+.academy {
+margin-left: .35rem;
+font-family: "Allerta Stencil", sans-serif;
+color: gray;
+font-size: 1.5rem;
+}
+
+header nav span {
+padding-right: 1.5rem;
+}
+
+/*Header Mobile*/
+
+@media only screen and (max-width: 630px) {
+  .logo-title {
+display: none;
+  }
+
+  .nav-mobile {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+/* Banner Section - Desktop PC*/
+
+@media only screen and (min-width: 630px) {
+
+.banner1 {
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  align-items: center;
+  background-color: #DCB947;
+  margin-top: 4rem;
+  padding: 2rem 1.5rem;
+}
+
+.banner1 img {
+width: 60%;
+height: auto;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem 2rem;
+  align-items: center;
+  text-align: center;
+
+}
+
+.banner-text h2 {
+text-transform: uppercase;
+
+}
+
+.button {
+  margin: 2rem 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  width: 8rem;
+}
+
+.button:hover {
+  background-color: #030AFA;
+  transition-duration: 1s;
+  }
+}
+
+/* Banner Section Mobile  */
+
+@media only screen and (max-width: 630px) {
+  .banner1 {
+    flex-direction: column;
+    padding: 0;
+    max-width: 100%;
+    background-color: #DCB947;
+  }
+
+  .banner1 img {
+    max-width: 100%;
+  }
+
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 2rem 2rem;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .button {
+    margin: 2rem 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    width: 20rem;
+  }
+}
+
+/*Campus Information Section - Desktop PC*/
+
+@media only screen and (min-width: 630px) {
+  }
+
+.campus-information {
+  background-color: #EFEFEF;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 1.5rem;
+}
+
+.campus-information .information {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  color: black;
+}
+
+.information img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+ padding-top: 2rem;
+  font-size: .8rem;
+}
+
+.event-column {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  height: auto;
+  margin-left: 2rem;
+  justify-content: space-between;
+}
+
+.event {
+display: flex;
+flex-direction: row;
+background-color: #E0DEE1;
+padding: 1rem;
+align-items: center;
+}
+
+.event:hover {
+background-color: white;
+}
+
+.event img {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  height: auto;
+  align-items: center;
+}
+
+.event-text {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-text a {
+  color: #4A90E2;
+  text-decoration: none;
+  font-size: .85rem;
+  padding-top: .5rem;
+}
+
+.event-text h3 {
+    padding-bottom: .5rem;
+  }
+}
