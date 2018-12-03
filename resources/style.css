@@ -88,6 +88,7 @@ header nav span {
 padding-right: 1.5rem;
 color: #383838;
 font-weight: 500;
+  }
 }
 
 /*Header Mobile*/
@@ -98,7 +99,7 @@ font-weight: 500;
  display: none;
 }
 
-nav span {
+nav {
   display: none;
 }
 
@@ -393,6 +394,11 @@ display: flex;
 
 .learning-class-image img {
   display: none;
+}
+
+.start-learning {
+  max-width: 100%;
+  background-color: lightgray;
 }
 
 .learning-class-text {
