@@ -22,7 +22,7 @@ a {
 
 h2 {
   font-size: 2rem;
-  color: black;
+  color: rgb(70, 70, 70);
   margin-bottom: 1.5rem;
   font-weight: bold;
   padding-top: 2rem;
@@ -30,7 +30,7 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
-  color: black;
+  color: rgb(70, 70, 70);
 }
 
 p {
@@ -38,12 +38,13 @@ p {
   line-height: 1.4;
 }
 
-/*Header Desktop*/
+/*Header Desktop PC*/
 
 @media only screen and (min-width: 630px) {
-    .nav-mobile {
-      display: none;
-    }
+
+.nav-mobile {
+  display: none;
+}
 
 
 header {
@@ -78,7 +79,6 @@ font-size: 1.5rem;
 }
 
 .academy {
-margin-left: .35rem;
 font-family: "Allerta Stencil", sans-serif;
 color: gray;
 font-size: 1.5rem;
@@ -86,23 +86,26 @@ font-size: 1.5rem;
 
 header nav span {
 padding-right: 1.5rem;
+color: #383838;
+font-weight: 500;
 }
 
 /*Header Mobile*/
 
 @media only screen and (max-width: 630px) {
-  .logo-title {
-display: none;
-  }
 
-  .nav-mobile {
-    max-width: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
+.logo-title {
+ display: none;
+}
 
-  nav {
-    display: none;
+nav span {
+  display: none;
+}
+
+.nav-mobile {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
   }
 }
 
@@ -115,7 +118,7 @@ display: none;
   max-width: 100%;
   flex-direction: row;
   align-items: center;
-  background-color: #DCB947;
+  background-color: #D3D3D3;
   margin-top: 4rem;
   padding: 2rem 1.5rem;
 }
@@ -132,26 +135,21 @@ height: auto;
   padding: 2rem 2rem;
   align-items: center;
   text-align: center;
-
-}
-
-.banner-text h2 {
-text-transform: uppercase;
-
+  }
 }
 
 .button {
   margin: 2rem 0;
   text-align: center;
-  background-color: black;
+  background-color: rgb(70, 70, 70);
   color: white;
   padding: 1rem 1rem;
   border-radius: 10px;
-  width: 8rem;
+  width: 18rem;
 }
 
 .button:hover {
-  background-color: #030AFA;
+  background-color: #003366;
   transition-duration: 1s;
   }
 }
@@ -160,35 +158,35 @@ text-transform: uppercase;
 
 @media only screen and (max-width: 630px) {
 
-  .banner1 {
-    flex-direction: column;
-    padding: 0;
-    max-width: 100%;
-    background-color: #DCB947;
-  }
+.banner1 {
+  flex-direction: column;
+  padding: 0;
+  max-width: 100%;
+  background-color: #D3D3D3;
+}
 
-  .banner1 img {
-    max-width: 100%;
-  }
+.banner1 img {
+  max-width: 100%;
+}
 
-  .banner-text {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    padding: 2rem 2rem;
-    align-items: center;
-    text-align: center;
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 2rem 2rem;
+  align-items: center;
+  text-align: center;
 
-  }
+}
 
-  .button {
-    margin: 2rem 0;
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 1rem 1rem;
-    border-radius: 10px;
-    width: 20rem;
+.button {
+  margin: 2rem 0;
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  width: 20rem;
   }
 }
 
@@ -362,17 +360,17 @@ display: flex;
  height: auto;
 }
 
-.bottom-learning-class{
+.learning-class-text {
   background-color: white;
   padding: 1rem 1rem;
   margin-bottom: 1rem;
 }
 
-.bottom-learning-class p {
+.learning-class-text p {
   padding-bottom: .5rem;
 }
 
-.bottom-learning-class h3 {
+.learning-class-text h3 {
   padding-bottom: 1rem;
   }
 }
@@ -462,7 +460,7 @@ display: flex;
  padding: 1rem 1rem;
  display: flex;
  flex-direction: row;
- background-color: lightgray;
+ background-color: rgb(230,230,230);
  margin-bottom: .5rem;
  align-items: center;
 }
