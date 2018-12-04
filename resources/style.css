@@ -1,9 +1,9 @@
 /* latin */
 @font-face {
-  font-family: 'Allerta Stencil';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Allerta Stencil Regular'), local('AllertaStencil-Regular'), url(https://fonts.gstatic.com/s/allertastencil/v8/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2) format('woff2');
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -38,7 +38,7 @@ p {
   line-height: 1.4;
 }
 
-/*Header Desktop PC*/
+/*Header - Desktop PC*/
 
 @media only screen and (min-width: 630px) {
 
@@ -73,13 +73,13 @@ margin-left: 1.5rem;
 
 .colmar {
 margin-left: .5rem;
-font-family: "Allerta Stencil", sans-serif;
+font-family: "Lato", sans-serif;
 color: black;
 font-size: 1.5rem;
 }
 
 .academy {
-font-family: "Allerta Stencil", sans-serif;
+font-family: "Lato", sans-serif;
 color: gray;
 font-size: 1.5rem;
 }
@@ -91,7 +91,7 @@ font-weight: 600;
   }
 }
 
-/*Header Mobile*/
+/*Header - Mobile*/
 
 @media only screen and (max-width: 630px) {
 
@@ -121,7 +121,7 @@ nav {
   }
 }
 
-/* Banner Section - Desktop PC*/
+/*Banner Section - Desktop PC*/
 
 @media only screen and (min-width: 630px) {
 
@@ -152,7 +152,7 @@ height: auto;
 .button {
   margin: 2rem 0;
   text-align: center;
-  background-color: rgb(70, 70, 70);
+  background-color: #D7510E;
   color: white;
   padding: 1rem 1rem;
   border-radius: 10px;
@@ -165,7 +165,7 @@ height: auto;
   }
 }
 
-/* Banner Section Mobile  */
+/*Banner Section - Mobile*/
 
 @media only screen and (max-width: 630px) {
 
@@ -334,17 +334,8 @@ div .event img {
   background-color: white;
 }
 
-.event img {
-  display: flex;
-  flex-direction: row;
-  width: 35%;
-  height: auto;
-  align-items: center;
-  overflow: hidden;
-}
-
 .event-text {
-  padding-left: 2rem;
+  padding-left: 5rem;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -362,7 +353,7 @@ div .event img {
   }
 }
 
-/*Start Learning Section-Desktop PC*/
+/*Start Learning Section - Desktop PC*/
 
 @media only screen and (min-width: 630px) {
 
@@ -385,6 +376,10 @@ div .event img {
   flex-direction: row;
   justify-content: space-between;
 
+}
+
+.learning-class-text:hover {
+ color: #2314F9;
 }
 
 .learning-class {
@@ -414,7 +409,7 @@ display: flex;
   }
 }
 
-/*Start Learning Section-Mobile*/
+/*Start Learning Section - Mobile*/
 
 @media only screen and (max-width: 630px) {
 
@@ -449,11 +444,15 @@ display: flex;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  color: black;
+  color: white;
   font-weight: bold;
-  background-color: #FBFEEE;
+  background-color: #D7510E;
   padding: 1rem 1rem;
   margin-bottom: .5rem;
+}
+
+.learning-class-text:hover {
+  background-color: blue;
 }
 
 .learning-class-text p {
@@ -461,6 +460,7 @@ display: flex;
 }
 
 .learning-class-text h3 {
+  color: white;
   padding-bottom: 0;
   }
 }
@@ -516,7 +516,7 @@ display: flex;
  padding: 1rem 1rem;
  display: flex;
  flex-direction: row;
- background-color: rgb(230,230,230);
+ background-color: rgb(275,275,275);
  margin-bottom: .5rem;
  align-items: center;
 }
@@ -613,7 +613,7 @@ display: flex;
   }
 }
 
-/*Footer- Desktop PC*/
+/*Footer - Desktop PC*/
 
 @media only screen and (min-width: 630px) {
 
@@ -646,7 +646,7 @@ footer {
   }
 }
 
-/*Footer- Mobile*/
+/*Footer - Mobile*/
 
 @media only screen and (max-width: 630px) {
 
