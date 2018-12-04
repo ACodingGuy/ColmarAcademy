@@ -160,6 +160,7 @@ height: auto;
 @media only screen and (max-width: 630px) {
 
 .banner1 {
+  display: flex;
   flex-direction: column;
   padding: 0;
   max-width: 100%;
@@ -187,7 +188,7 @@ height: auto;
   color: white;
   padding: 1rem 1rem;
   border-radius: 10px;
-  width: 20rem;
+  width: 18rem;
   }
 }
 
@@ -397,15 +398,14 @@ display: flex;
 }
 
 .start-learning {
-  max-width: 100%;
-  background-color: lightgray;
+  background-color: white;
 }
 
 .learning-class-text {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: white;
+  background-color: lightgray;
   padding: 1rem 1rem;
   margin-bottom: .5rem;
 }
